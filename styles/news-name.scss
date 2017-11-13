@@ -1,0 +1,18 @@
+.news-name {
+    border-right: 7px solid $color-menu;
+    height: 44px;
+    padding-right: 30px;
+    &__text {  
+        font-size: 31px;
+        color: $color-blue;   
+        line-height: 25px;
+    }
+    &__link{
+        font-size: 10px;
+        color: $color-blue; 
+        margin-left: 50px;
+        &:hover{
+            opacity: 0.7;
+        }
+    } 
+} 
