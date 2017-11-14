@@ -1,0 +1,25 @@
+{
+  "name": "st-clinic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css": "node-sass styles/styles.scss style.css",
+    "scss": "node-sass styles/styles.scss styles.css -w -r styles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ledyanoy/st-clinic.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ledyanoy/st-clinic/issues"
+  },
+  "homepage": "https://github.com/Ledyanoy/st-clinic#readme",
+  "dependencies": {
+    "node-sass": "^4.6.1"
+  }
+}
