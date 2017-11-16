@@ -1,0 +1,19 @@
+.name {
+    width: 115px;
+    border-right: 7px solid $color-menu;
+    height: 44px;
+    padding-right: 30px;
+    &__text {  
+        font-size: 31px;
+        color: $color-blue;   
+        line-height: 30px;
+    }
+    &__link{
+        font-size: 10px;
+        color: $color-blue;         
+        float: right;
+        &:hover{
+            opacity: 0.7;
+        }
+    } 
+} 

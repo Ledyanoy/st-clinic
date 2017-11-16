@@ -5,41 +5,39 @@
       <link href="styles.css" rel="stylesheet">      
       <title>СТ Клиника</title>	  
     </head>	   
-  <body class="body"> 
+    <body> 
     <div class="page">
-      <header class="body__item page-header">
-        <section class="page-header__item logo-uplevel">        
-          <img src="pictures/logo.png" class="logo" alt="logo">
+      <header class="page__wrapper page-header">
+        <section class="page-header__item performance">        
+          <a href=""><img src="pictures/logo.png" class="performance__logo" alt="logo"></a>
           <ul class="uplevel-menu">
             <li class="uplevel-menu__item"><a href="" class="uplevel-menu__link">Терапия</a></li>
             <li class="uplevel-menu__item"><a href="" class="uplevel-menu__link">Ортопедия</a></li>
             <li class="uplevel-menu__item"><a href="" class="uplevel-menu__link">Ортодонтия</a></li>
           </ul>
         </section>
-        <section class="page-header__item name-story">
-          <h1 class="name-story__caption">«Стоматологические <span class="name-story__caption-item">технологии</span>»</h1>
-          <p class="name-story__story">Популяционный индекс прочно ищет близкий
-            тропический год (датировка приведена по Петавиусу, Цеху, Хайсу). Приливное трение
-            выслеживает азимут, таким образом, атмосферы этих планет плавно переходят в жидкую мантию.
-            Радиант вызывает случайный метеорный дождь, однако большинство спутников движутся вокруг 
-            своих планет в ту же сторону, в какую вращаются планеты. Хотя хронологи не увеpены,
-            им кажется, что солнечное затмение традиционно решает Ганимед – это скорее индикатор,
-            чем примета.
+        <section class="page-header__item description">
+          <h1 class="description__caption">Стоматологические технологии&raquo;</h1>
+          <p class="description__story">Популяционный индекс прочно ищет близкий тропический год (датировка приведена по&nbsp;
+            Петавиусу, Цеху, Хайсу). Приливное трение выслеживает азимут, таким образом, атмосферы этих планет плавно переходят в&nbsp;
+            жидкую мантию. Радиант вызывает случайный метеорный дождь, однако большинство спутников движутся вокруг своих планет в&nbsp;ту&nbsp;
+            же сторону, в&nbsp;какую вращаются планеты. Хотя хронологи не&nbsp;увеpены, им&nbsp;кажется, что солнечное затмение традиционно решает Ганимед&nbsp;
+            &mdash; это скорее индикатор, чем примета.
           </p>
         </section>
-        <section class="page-header__item phone-adress">
-          <p class="phone"><span class="phone__code">(3412)</span> 66-55-55
-          </p>
-          <adress class="adress"><span class="adress__item">г. Ижевск,</span> ул. Красногеройская, 60
+        <section class="page-header__item contacts">
+          <a href="tel:(3412)665555" class="phone"><p class="phone__number"><span class="phone__code">(3412)</span> 66-55-55</p>
+          </a>
+          <adress class="adress"><span class="adress__city">г. Ижевск,</span> ул. Красногеройская, 60
             <a href="" class="adress__link">Схема проезда</a>
           </adress>
-          <div><a href="" class="phone-adress__link">Online-консультация</a> 
+          <div><a href="" class="contacts__link">Online-консультация</a> 
           </div>       
         </section>
       </header> 
-      <main clas="body__item">
+      <main>
         <nav class="main-menu">
-          <ul class="menu-list">
+          <ul class="page__wrapper menu-list">
             <li class="menu-list__item"><a href="" class="menu-list__link">Клиника</a></li>
             <li class="menu-list__item"><a href="" class="menu-list__link">Инфо-центр</a></li> 
             <li class="menu-list__item"><a href="" class="menu-list__link">Услсуги</a></li> 
@@ -48,36 +46,39 @@
             <li class="menu-list__item"><a href="" class="menu-list__link">Контакты</a></li>     
           </ul>
         </nav>
-        <section class="body__item photos">
-          <img src="pictures/first.jpg" class="photos__item photos__first" alt="первое изображение">
-          <img src="pictures/second.jpg" class="photos__item photos__second" alt="второе изображение">
-          <img src="pictures/third.jpg" class="photos__item photos__third" alt="третье изображение">
+        <section class="photos">
+          <img src="pictures/first.jpg" class="photos__item photos__item--first" alt="первое изображение">
+          <img src="pictures/second.jpg" class="photos__item photos__item--second" alt="второе изображение">
+          <img src="pictures/third.jpg" class="photos__item photos__item--third" alt="третье изображение">
         </section>      
-        <section class="body__item news">
-          <div class="news__item news-name">          
-            <p class="news-name__text">Новости</p>
-            <a href="" class="news-name__link">Все новсоти</a>                   
+        <section class="page__wrapper topics">
+          <div class="topics__part topics__part--left"> 
+            <div class="topics__name name">         
+              <p class="name__text">Новости</p>
+              <a href="" class="name__link">Все новсоти</a> 
+            </div>                  
           </div>          
-          <ul class="news__item news-items">
-            <li class="news-items__part">
-              <p class="news-items__text"><a href="" class="news-items__link">Радиант вызывает
-                случайный метеорный дождь</a>Однако большинство спутников движутся вокруг
-                своих планет в ту же сторону, в какую
+          <ul class="topics__part cards">
+            <li class="cards__part">
+              <p class="cards__text"><a href="" class="cards__link">Радиант вызывает
+                случайный метеорный дождь</a>Однако большинство спутников движутся вокруг своих планет в&nbsp;
+                ту&nbsp;же сторону, в&nbsp;какую
               </p>
             </li>
-            <li class="news-items__part">
-              <p class="news-items__text"><a href="" class="news-items__link">Радиант вызывает
-                случайный метеорный дождь</a>Однако большинство спутников движутся вокруг
-                своих планет в ту же сторону, в какую
+            <li class="cards__part">
+              <p class="cards__text"><a href="" class="cards__link">Радиант вызывает
+                случайный метеорный дождь</a>Однако большинство спутников движутся вокруг своих планет в&nbsp;
+                ту&nbsp;же сторону, в&nbsp;какую
               </p>
             </li>          
           </ul>
         </section>
       </main>
-      <footer class="body__item page-footer">
-        <div class="copyright">
-          <p class="copyright__text">2010 © ООО «Стоматологические технологии»
-            Создание сайта — <a href="" class="copyright__link">Центр Высоких Технологий</a>
+      <footer class="page__wrapper footer">
+        <div class="footer__part"></div>
+        <div class="copyrights">
+          <p class="copyrights__text">2010&nbsp;&copy; ООО &laquo;Стоматологические технологии&raquo;
+              Создание сайта&nbsp;&mdash;<a href="" class="copyrights__link">Центр Высоких Технологий</a>
           </p>
         </div>  
       </footer>

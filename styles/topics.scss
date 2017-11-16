@@ -1,0 +1,15 @@
+.topics {
+    padding-top:55px;
+    padding-bottom: 80px;    
+    &__part {
+        display: inline-block;         
+        vertical-align: top;
+        &--left {  
+            width: 310px;                                
+        }
+    }
+    &__name { 
+        float:right;
+        margin-right: 35px;       
+    }
+}
