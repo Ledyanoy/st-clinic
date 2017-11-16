@@ -1,11 +1,8 @@
-.copyright {
-    max-width: 274px;
-    margin-bottom: 160px;
-    &__text {
-        font-size: 12px;
-        color: $color-copyright;
+.footer {  
+    padding-bottom: 150px;   
+    &__part {
+        display: inline-block;
+        width: 310px;         
     }
-    &__link:hover {
-        opacity: 0.7;
-    }
+   
 }

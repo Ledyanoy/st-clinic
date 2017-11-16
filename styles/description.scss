@@ -10,12 +10,12 @@
         &:before {
             content:"\00AB";            
             margin-left: -13px;
-        }                    
-    } 
+        }  
+    }        
     &__story {
-        max-width: 365px;
+        max-width: 330px;
         margin-top: 17px;        
         font-size: 11px;
         line-height: 15px;
     }
-}  
+}
