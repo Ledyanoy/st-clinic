@@ -1,9 +1,10 @@
-.cards {      
-    margin-top: 5px;     
+.cards {     
+    width: 370px;  
+    margin-top: 10px;     
     &__part {
         display: inline-block;
-        max-width: 165px; 
-        margin-right: 25px;
+        max-width: 163px; 
+        margin-right: 33px;
         &:last-child {
             margin-right: 0px;  
         }       

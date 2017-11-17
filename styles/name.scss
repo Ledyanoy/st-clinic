@@ -1,17 +1,19 @@
 .name {
     width: 115px;
     border-right: 6px solid $color-menu;
-    height: 45px;
+    height: 44px;
     padding-right: 30px;
     &__text {  
         font-size: 31px;
-        color: $color-blue;   
-        line-height: 0.9em;
+        color: $color-blue;
+        margin-top: -4px; 
+        line-height: 1em;
     }
     &__link{
         font-size: 10px;
         color: $color-blue;         
         float: right;
+        margin-right: 4px;
         &:hover{
             opacity: 0.7;
         }

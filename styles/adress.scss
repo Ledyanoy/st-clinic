@@ -1,13 +1,16 @@
-.adress {  
-    font-size: 11px;
-    color: $color-phone-code;  
+.adress {      
+    display: block;
+    font-size: 11px;    
+    color: $color-phone-code;
+    line-height: 1.2em;
+    padding-left: 4px;                
         &__city {
-        display: block;
-        margin-top: 32px;     
+        display: block;        
+        margin-top: 31px;    
     } 
     &__link {
         display: block;
-        margin-top: 4px;
+        margin-top: 3px;        
         &:hover {
             opacity: 0.7;
         }      
