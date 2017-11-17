@@ -150,8 +150,6 @@ table {
 
 .photos {
   font-size: 0px; }
-  .photos__item {
-    height: 200px; }
   .photos__item--first {
     width: 30%; }
   .photos__item--second {
