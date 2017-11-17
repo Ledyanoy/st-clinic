@@ -1,11 +1,7 @@
-.uplevel-menu {   
-  list-style-type: none;
+.uplevel-menu {    
   &__item {
     font-size: 14px;
-    margin-bottom: 5px;    
-    &:first-child {
-      margin-top: 47px;   
-    }
+    margin-bottom: 5px;     
     &:hover {
       opacity: 0.7;
     }

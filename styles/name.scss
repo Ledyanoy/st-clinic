@@ -1,12 +1,12 @@
 .name {
     width: 115px;
-    border-right: 7px solid $color-menu;
-    height: 44px;
+    border-right: 6px solid $color-menu;
+    height: 45px;
     padding-right: 30px;
     &__text {  
         font-size: 31px;
         color: $color-blue;   
-        line-height: 30px;
+        line-height: 0.9em;
     }
     &__link{
         font-size: 10px;

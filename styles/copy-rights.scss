@@ -1,9 +1,10 @@
 .copyrights {
     display: inline-block;
-    max-width: 274px;            
+    max-width: 270px;            
     &__text {
         font-size: 12px;
         color: $color-copyright;
+        line-height: 1.5em;
         }
     &__link:hover {
         opacity: 0.7;

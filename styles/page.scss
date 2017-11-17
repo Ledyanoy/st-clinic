@@ -11,4 +11,11 @@
       padding-left: 10px;
       padding-right: 10px;
     }
+    &__item {
+      display: inline-block;
+      vertical-align: top; 
+      &--contacts {
+        margin-left: 85px;        
+      }       
+  }
 }

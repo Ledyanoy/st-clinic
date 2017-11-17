@@ -1,21 +1,20 @@
 .description {  
-    width: 455px;     
-    &__caption {
-        max-width: 250px;
+    width: 360px;         
+    &__caption { 
+        margin-top: 10px;       
         font-size: 27px;
-        font-style: oblique;  
-        font-weight: normal;
+        font-style: oblique;        
         color: $color-blue; 
-        line-height: 20px; 
+        line-height: 0.8em; 
         &:before {
             content:"\00AB";            
-            margin-left: -13px;
+            margin-left: -15px;
         }  
     }        
-    &__story {
-        max-width: 330px;
-        margin-top: 17px;        
+    &__story {      
+        margin-top: 10px;   
         font-size: 11px;
-        line-height: 15px;
+        line-height: 1.4em;
+        
     }
 }
