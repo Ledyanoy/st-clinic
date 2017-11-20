@@ -14,9 +14,19 @@
     &__item {
       display: inline-block;
       vertical-align: top; 
-      &--contacts {
+      &--right {
         margin-left: 86px; 
         padding-top: 2px;       
-      }       
+      } 
+      &--left {
+        width: 304px;
+      }  
+      &--middle {
+        width: 360px; 
+      }    
+      &--bottom-middle {
+        width: 370px;  
+        margin-top: 10px; 
+      }
   }
 }
