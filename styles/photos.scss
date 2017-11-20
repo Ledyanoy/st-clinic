@@ -1,15 +1,16 @@
 .photos {  
     font-size: 0px;
+    max-width: 1200px;
     &__item { 
-        height: 190px;        
+        display: inline-block;        
     }
-    &__item--first {
-        width: 23%;       
+    &__item--hall {
+        width: 30.41%;       
     } 
-    &__item--second {
-        width: 46%;        
+    &__item--boy {
+        width: 44.16%;        
     }
-    &__item--third {
-        width: 20%;        
+    &__item--work {
+        width: 25.41%;        
     }     
 }

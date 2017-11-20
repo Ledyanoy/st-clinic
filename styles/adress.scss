@@ -1,16 +1,16 @@
 .adress {      
     display: block;
     font-size: 11px;    
-    color: $color-phone-code;
-    line-height: 1.2em;
+    color: $color-grey-phone;
+    line-height: 1.3em;    
     padding-left: 4px;                
         &__city {
         display: block;        
-        margin-top: 31px;    
+        margin-top: 33px;    
     } 
     &__link {
         display: block;
-        margin-top: 3px;        
+        margin-top: 2px;        
         &:hover {
             opacity: 0.7;
         }      

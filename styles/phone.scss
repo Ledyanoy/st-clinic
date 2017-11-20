@@ -1,14 +1,14 @@
 .phone {
     text-decoration: none;
-    font-family: $font-phone;
+    font-family: $font-additional;
     font-size: 29px;
-    color: $color-phone; 
-    line-height: 20px; 
+    color: $color-black-phone; 
+    line-height: 0.7em; 
     &__code { 
         display: block;
         padding-left: 4px;
         font-size: 11px;
-        color: $color-phone-code;
+        color: $color-grey-phone;
         vertical-align: top;      
     } 
 }

@@ -5,17 +5,17 @@
         padding: 10px 0px 12px 0px;
         margin-right: 26px;
         &:hover {
-            transform:scale(1.1)
+            transform: scale(1.1)
         }
     }
     &__link {
-        color: $color-menu-link;
+        color: $color-white;
         font-size: 19px;
         text-decoration: none;
-        border-bottom: 2px solid $color-menu-link;
+        border-bottom: 2px solid $color-white;
         &:active{
-            color: $color-phone-code;
-            border-color:$color-phone-code;
+            color: $color-grey-phone;
+            border-color: $color-grey-phone;
         }
     }
 } 
