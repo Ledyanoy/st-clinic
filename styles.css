@@ -46,20 +46,20 @@ table {
   .page__inner {
     min-width: 1000px; }
   .page__wrapper {
-    max-width: 1180px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 10px;
-    padding-right: 10px; }
+    padding-right: 10px;
+    padding-left: 70px; }
   .page__item {
     display: inline-block;
     vertical-align: top; }
     .page__item--right {
-      margin-left: 87px; }
+      margin-left: 6.83%; }
     .page__item--left {
-      width: 26%; }
+      width: 25.76%; }
     .page__item--middle {
-      width: 30.9%; }
+      width: 30.93%; }
     .page__item--cards {
       margin-top: 10px; }
 
@@ -127,10 +127,10 @@ table {
   font-size: 11px;
   color: #646d6e;
   line-height: 1.3em;
-  padding-left: 4px; }
+  padding-left: 3px; }
   .adress__city {
     display: block;
-    margin-top: 33px; }
+    margin-top: 32px; }
   .adress__link {
     display: block;
     margin-top: 2px; }
@@ -168,9 +168,11 @@ table {
     width: 44.16%; }
   .photos__item--work {
     width: 25.41%; }
+  .photos__picture {
+    width: 100%; }
 
 .topics {
-  padding-top: 50px;
+  padding-top: 52px;
   padding-bottom: 71px; }
   .topics__name {
     float: right;
@@ -198,7 +200,7 @@ table {
 .cards__part {
   display: inline-block;
   max-width: 46%;
-  margin-right: 24px; }
+  margin-right: 6%; }
   .cards__part:last-child {
     margin-right: 0px; }
 
