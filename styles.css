@@ -51,6 +51,8 @@ table {
     margin-right: auto;
     padding-right: 10px;
     padding-left: 70px; }
+    .page__wrapper--photo {
+      padding-left: 0px; }
   .page__item {
     display: inline-block;
     vertical-align: top; }
