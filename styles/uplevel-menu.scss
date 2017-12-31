@@ -1,0 +1,13 @@
+.uplevel-menu {    
+  &__item {
+    font-size: 14px;
+    margin-bottom: 6px;     
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+  &__link {
+    text-decoration: none;
+    border-bottom: 1px solid;    
+  }
+}

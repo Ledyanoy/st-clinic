@@ -1,0 +1,19 @@
+.photos {  
+    font-size: 0px;
+    max-width: 1200px;
+    &__item { 
+        display: inline-block;        
+    }
+    &__item--hall {
+        width: 30.41%;       
+    } 
+    &__item--boy {
+        width: 44.16%;        
+    }
+    &__item--work {
+        width: 25.41%;        
+    } 
+    &__picture {
+        width: 100%;        
+    }    
+}

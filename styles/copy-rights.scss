@@ -1,0 +1,12 @@
+.copyrights {
+    display: inline-block;
+    max-width: 270px;            
+    &__text {
+        font-size: 12px;
+        color: $color-copyright;
+        line-height: 1.8em;
+        }
+    &__link:hover {
+        opacity: 0.7;
+    }
+}

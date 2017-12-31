@@ -1,0 +1,21 @@
+.adress {      
+    display: block;
+    font-size: 11px;    
+    color: $color-grey-phone;
+    line-height: 1.3em;    
+    padding-left: 3px;                
+        &__city {
+        display: block;        
+        margin-top: 32px;    
+    } 
+    &__link {
+        display: block;
+        margin-top: 2px;        
+        &:hover {
+            opacity: 0.7;
+        }      
+    }
+}
+
+
+
